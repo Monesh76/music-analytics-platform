@@ -1,0 +1,278 @@
+{
+  "test_tracks": [
+    {
+      "id": "track_001",
+      "title": "Hotel California",
+      "artist": "Eagles",
+      "album": "Hotel California",
+      "genre": "rock",
+      "duration": 391,
+      "release_year": 1976,
+      "platform": "spotify",
+      "expected_mood": "Melancholic, atmospheric, and introspective",
+      "expected_genres": ["classic_rock", "soft_rock", "country_rock"],
+      "expected_context": "Evening relaxation or road trip vibes",
+      "similar_tracks": ["Take It Easy", "Desperado", "One of These Nights"]
+    },
+    {
+      "id": "track_002",
+      "title": "Bohemian Rhapsody",
+      "artist": "Queen",
+      "album": "A Night at the Opera",
+      "genre": "rock",
+      "duration": 354,
+      "release_year": 1975,
+      "platform": "apple_music",
+      "expected_mood": "Dramatic, theatrical, and emotionally powerful",
+      "expected_genres": ["progressive_rock", "hard_rock", "art_rock"],
+      "expected_context": "Party atmosphere or dramatic listening",
+      "similar_tracks": ["We Will Rock You", "Another One Bites the Dust", "Somebody to Love"]
+    },
+    {
+      "id": "track_003",
+      "title": "Stairway to Heaven",
+      "artist": "Led Zeppelin",
+      "album": "Led Zeppelin IV",
+      "genre": "rock",
+      "duration": 482,
+      "release_year": 1971,
+      "platform": "youtube_music",
+      "expected_mood": "Epic, mystical, and transcendent",
+      "expected_genres": ["hard_rock", "progressive_rock", "blues_rock"],
+      "expected_context": "Deep listening or spiritual experience",
+      "similar_tracks": ["Whole Lotta Love", "Black Dog", "Kashmir"]
+    },
+    {
+      "id": "track_004",
+      "title": "Sweet Child O Mine",
+      "artist": "Guns N Roses",
+      "album": "Appetite for Destruction",
+      "genre": "rock",
+      "duration": 356,
+      "release_year": 1987,
+      "platform": "spotify",
+      "expected_mood": "Energetic, passionate, and anthemic",
+      "expected_genres": ["hard_rock", "glam_metal", "classic_rock"],
+      "expected_context": "High-energy activities or driving",
+      "similar_tracks": ["November Rain", "Paradise City", "Welcome to the Jungle"]
+    },
+    {
+      "id": "track_005",
+      "title": "Billie Jean",
+      "artist": "Michael Jackson",
+      "album": "Thriller",
+      "genre": "pop",
+      "duration": 294,
+      "release_year": 1982,
+      "platform": "apple_music",
+      "expected_mood": "Groovy, infectious, and danceable",
+      "expected_genres": ["pop", "dance_pop", "funk"],
+      "expected_context": "Dancing or party atmosphere",
+      "similar_tracks": ["Beat It", "Thriller", "Smooth Criminal"]
+    },
+    {
+      "id": "track_006",
+      "title": "Like a Rolling Stone",
+      "artist": "Bob Dylan",
+      "album": "Highway 61 Revisited",
+      "genre": "folk",
+      "duration": 371,
+      "release_year": 1965,
+      "platform": "youtube_music",
+      "expected_mood": "Poetic, rebellious, and thought-provoking",
+      "expected_genres": ["folk_rock", "blues_rock", "protest_song"],
+      "expected_context": "Reflective listening or cultural appreciation",
+      "similar_tracks": ["Blowin in the Wind", "The Times They Are A-Changin", "Mr. Tambourine Man"]
+    },
+    {
+      "id": "track_007",
+      "title": "Imagine",
+      "artist": "John Lennon",
+      "album": "Imagine",
+      "genre": "pop",
+      "duration": 183,
+      "release_year": 1971,
+      "platform": "spotify",
+      "expected_mood": "Peaceful, idealistic, and inspiring",
+      "expected_genres": ["pop", "soft_rock", "protest_song"],
+      "expected_context": "Meditation or peaceful reflection",
+      "similar_tracks": ["Give Peace a Chance", "Working Class Hero", "Instant Karma"]
+    },
+    {
+      "id": "track_008",
+      "title": "Smells Like Teen Spirit",
+      "artist": "Nirvana",
+      "album": "Nevermind",
+      "genre": "rock",
+      "duration": 301,
+      "release_year": 1991,
+      "platform": "apple_music",
+      "expected_mood": "Raw, rebellious, and angst-filled",
+      "expected_genres": ["grunge", "alternative_rock", "punk_rock"],
+      "expected_context": "High-energy activities or teenage rebellion",
+      "similar_tracks": ["Come As You Are", "Lithium", "In Bloom"]
+    },
+    {
+      "id": "track_009",
+      "title": "Superstition",
+      "artist": "Stevie Wonder",
+      "album": "Talking Book",
+      "genre": "funk",
+      "duration": 267,
+      "release_year": 1972,
+      "platform": "youtube_music",
+      "expected_mood": "Funky, soulful, and groove-heavy",
+      "expected_genres": ["funk", "soul", "r&b"],
+      "expected_context": "Dancing or funky vibes",
+      "similar_tracks": ["Higher Ground", "Living for the City", "Sir Duke"]
+    },
+    {
+      "id": "track_010",
+      "title": "Respect",
+      "artist": "Aretha Franklin",
+      "album": "I Never Loved a Man the Way I Love You",
+      "genre": "soul",
+      "duration": 147,
+      "release_year": 1967,
+      "platform": "spotify",
+      "expected_mood": "Empowering, soulful, and confident",
+      "expected_genres": ["soul", "r&b", "gospel"],
+      "expected_context": "Empowerment or confidence boost",
+      "similar_tracks": ["Think", "Natural Woman", "Chain of Fools"]
+    },
+    {
+      "id": "track_011",
+      "title": "Purple Haze",
+      "artist": "Jimi Hendrix",
+      "album": "Are You Experienced",
+      "genre": "rock",
+      "duration": 170,
+      "release_year": 1967,
+      "platform": "apple_music",
+      "expected_mood": "Psychedelic, experimental, and mind-bending",
+      "expected_genres": ["psychedelic_rock", "hard_rock", "blues_rock"],
+      "expected_context": "Psychedelic experience or experimental listening",
+      "similar_tracks": ["All Along the Watchtower", "Voodoo Child", "Foxy Lady"]
+    },
+    {
+      "id": "track_012",
+      "title": "Good Vibrations",
+      "artist": "The Beach Boys",
+      "album": "Smiley Smile",
+      "genre": "pop",
+      "duration": 216,
+      "release_year": 1966,
+      "platform": "youtube_music",
+      "expected_mood": "Harmonious, sunny, and feel-good",
+      "expected_genres": ["pop", "surf_rock", "baroque_pop"],
+      "expected_context": "Summer vibes or feel-good moments",
+      "similar_tracks": ["God Only Knows", "Wouldn't It Be Nice", "California Girls"]
+    },
+    {
+      "id": "track_013",
+      "title": "What's Going On",
+      "artist": "Marvin Gaye",
+      "album": "What's Going On",
+      "genre": "soul",
+      "duration": 234,
+      "release_year": 1971,
+      "platform": "spotify",
+      "expected_mood": "Smooth, socially conscious, and soulful",
+      "expected_genres": ["soul", "r&b", "protest_song"],
+      "expected_context": "Reflective listening or social awareness",
+      "similar_tracks": ["Mercy Mercy Me", "Inner City Blues", "Let's Get It On"]
+    },
+    {
+      "id": "track_014",
+      "title": "Johnny B. Goode",
+      "artist": "Chuck Berry",
+      "album": "Chuck Berry Is on Top",
+      "genre": "rock",
+      "duration": 161,
+      "release_year": 1958,
+      "platform": "apple_music",
+      "expected_mood": "Energetic, pioneering, and rock 'n' roll",
+      "expected_genres": ["rock_n_roll", "blues_rock", "classic_rock"],
+      "expected_context": "Dancing or rock 'n' roll celebration",
+      "similar_tracks": ["Maybellene", "Roll Over Beethoven", "Rock and Roll Music"]
+    },
+    {
+      "id": "track_015",
+      "title": "I Want to Hold Your Hand",
+      "artist": "The Beatles",
+      "album": "Meet the Beatles!",
+      "genre": "pop",
+      "duration": 143,
+      "release_year": 1963,
+      "platform": "youtube_music",
+      "expected_mood": "Infectious, youthful, and romantic",
+      "expected_genres": ["pop", "british_invasion", "rock_n_roll"],
+      "expected_context": "Romantic moments or nostalgic listening",
+      "similar_tracks": ["She Loves You", "A Hard Day's Night", "Help!"]
+    }
+  ],
+  "platforms": [
+    {
+      "name": "spotify",
+      "icon": "fab fa-spotify",
+      "color": "text-green-600",
+      "description": "Premium streaming with high-quality audio"
+    },
+    {
+      "name": "apple_music",
+      "icon": "fab fa-apple",
+      "color": "text-red-600",
+      "description": "Lossless audio and spatial sound"
+    },
+    {
+      "name": "youtube_music",
+      "icon": "fab fa-youtube",
+      "color": "text-red-600",
+      "description": "Video and audio streaming platform"
+    }
+  ],
+  "event_types": [
+    {
+      "value": "play",
+      "label": "🎵 Play Track",
+      "description": "User starts listening to a track"
+    },
+    {
+      "value": "pause",
+      "label": "⏸️ Pause Track",
+      "description": "User pauses the track"
+    },
+    {
+      "value": "skip",
+      "label": "⏭️ Skip Track",
+      "description": "User skips to next track"
+    },
+    {
+      "value": "like",
+      "label": "❤️ Like Track",
+      "description": "User likes/favorites a track"
+    },
+    {
+      "value": "share",
+      "label": "📤 Share Track",
+      "description": "User shares a track"
+    }
+  ],
+  "audio_qualities": [
+    {
+      "value": "high",
+      "label": "High Quality (320 kbps)",
+      "description": "Premium streaming quality"
+    },
+    {
+      "value": "medium",
+      "label": "Medium Quality (128 kbps)",
+      "description": "Standard streaming quality"
+    },
+    {
+      "value": "low",
+      "label": "Low Quality (64 kbps)",
+      "description": "Basic streaming quality"
+    }
+  ]
+} 
