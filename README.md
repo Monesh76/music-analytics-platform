@@ -313,9 +313,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Support
 
 For questions, issues, or contributions:
-- **Issues**: GitHub Issues
+- **Issues**: https://github.com/Monesh76/music-analytics-platform/issues
 - **Discussions**: GitHub Discussions
-- **Email**: [your-email@domain.com]
+- **Email**: [monesh6302@gmail.com]
 
 ---
 
